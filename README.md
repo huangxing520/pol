@@ -1,15 +1,27 @@
 # POL
-## Table of Contents
+
+[![License: MIT](https://img.shields.io/static/v1?label=Licence&message=LGPL&color=)](https://github.com/huangxing520/pol/blob/master/LICENSE)
+[![npm version](https://img.shields.io/static/v1?label=npm&message=7.24.1&color=red)](https://github.com/huangxing520/pol)
+![npm peer dependency version](https://img.shields.io/static/v1?label=Angular-Core&message=>=12.0.0&color=blue)
+![language](https://img.shields.io/badge/Language-Typescript-orange.svg)
+## Directory
 
 - [Background](#background)
 - [Install](#install)
-- [Usage](#usage)
-  - [Generator](#generator)
-- [Badge](#badge)
-- [Example Readmes](#example-readmes)
-- [Related Efforts](#related-efforts)
-- [Contributing](#contributing)
-- [License](#license)
+
+[comment]: <> (- [Usage]&#40;#usage&#41;)
+
+[comment]: <> (  - [Generator]&#40;#generator&#41;)
+
+[comment]: <> (- [Badge]&#40;#badge&#41;)
+
+[comment]: <> (- [Example Readmes]&#40;#example-readmes&#41;)
+
+[comment]: <> (- [Related Efforts]&#40;#related-efforts&#41;)
+
+[comment]: <> (- [Contributing]&#40;#contributing&#41;)
+
+[comment]: <> (- [License]&#40;#license&#41;)
 
 ## Background
 POL is a website that I personally developed to aggregate various functions as well as focus on various collections in the form of memos.
@@ -26,56 +38,32 @@ The goals for this repository are:
 This project uses [node](http://nodejs.org) and [npm](https://npmjs.com). Go check them out if you don't have them locally installed.
 
 ```sh
-$ npm install filepond ngx-filepond --save
+$ npm install 
+$ ng serve -o // debug
 
+or
+
+$ yarn
+$ yarn build
+$ yarn start
 ```
 
-## Usage
+[comment]: <> (## Usage)
 
-This is only a documentation package. You can print out [spec.md](spec.md) to your console:
+[comment]: <> ([comment]: <> &#40;This is only a documentation package. You can print out [spec.md]&#40;spec.md&#41; to your console:&#41;)
 
-```sh
-$ standard-readme-spec
-# Prints out the standard-readme spec
-```
+[comment]: <> ([comment]: <> &#40;```sh&#41;)
 
-### Generator
+[comment]: <> ([comment]: <> &#40;$ standard-readme-spec&#41;)
 
-To use the generator, look at [generator-standard-readme](https://github.com/RichardLitt/generator-standard-readme). There is a global executable to run the generator in that package, aliased as `standard-readme`.
+[comment]: <> ([comment]: <> &#40;# Prints out the standard-readme spec&#41;)
 
-## Badge
+[comment]: <> ([comment]: <> &#40;```&#41;)
 
-If your README is compliant with Standard-Readme and you're on GitHub, it would be great if you could add the badge. This allows people to link back to this Spec, and helps adoption of the README. The badge is **not required**.
+[comment]: <> (### Generator)
 
-[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
-
-To add in Markdown format, use this code:
-
-```
-[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
-```
-
-## Example Readmes
-
-To see how the specification has been applied, see the [example-readmes](example-readmes/).
-
-## Related Efforts
-
-- [Art of Readme](https://github.com/noffle/art-of-readme) - 💌 Learn the art of writing quality READMEs.
-- [open-source-template](https://github.com/davidbgk/open-source-template/) - A README template to encourage open-source contributions.
+[comment]: <> ([comment]: <> &#40;To use the generator, look at [generator-standard-readme]&#40;https://github.com/RichardLitt/generator-standard-readme&#41;. There is a global executable to run the generator in that package, aliased as `standard-readme`.&#41;)
 
 
-## Contributing
+[comment]: <> (## License)
 
-Feel free to dive in! [Open an issue](https://github.com/RichardLitt/standard-readme/issues/new) or submit PRs.
-
-Standard Readme follows the [Contributor Covenant](http://contributor-covenant.org/version/1/3/0/) Code of Conduct.
-
-### Contributors
-
-This project exists thanks to all the people who contribute.
-
-
-## License
-
-[MIT](LICENSE)

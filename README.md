@@ -25,7 +25,7 @@
 
 ## Background
 POL is a website that I personally developed to aggregate various functions as well as focus on various collections in the form of memos.
-It depends on Angular 11.
+It depends on Angular 12.
 > Notes: This is just a small thing to do, very immature, welcome your criticism and correction
 
 The goals for this repository are:

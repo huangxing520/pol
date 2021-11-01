@@ -1,0 +1,43 @@
+
+
+@keyframes move {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 100% 0;
+  }
+}
+
+.bg {
+  background: url(https://sp-webfront.skypixel.com/skypixel/v2/public/website/assets/1535027674204-f6eca6369ec03e70262b58b0e25cda7b.jpg);
+  background-size: cover;
+  position: fixed;
+  top: -20px;
+  left: -20px;
+  right: -20px;
+  bottom: -20px;
+  filter: blur(15px);
+  z-index: -1;
+}
+
+.slogan {
+  color: white;
+  margin-top: 24px;
+  font-size: 36px;
+  font-weight: 400;
+  margin-left: 35%;
+}
+
+.mask {
+  width: 800px;
+  height: 800px;
+  animation: move 100s infinite;
+  margin-left: 20%;
+
+  background-image: url(https://hxxxx.oss-cn-beijing.aliyuncs.com/QQ%E5%9B%BE%E7%89%8720211017190219.jpg);
+  background-size: auto;
+  mask: url(https://hxxxx.oss-cn-beijing.aliyuncs.com/pngsucai_859287_1c6d60.png);
+  mask-size: cover;
+}
+

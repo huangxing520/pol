@@ -1,27 +1,81 @@
 # POL
+## Table of Contents
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.0.
+- [Background](#background)
+- [Install](#install)
+- [Usage](#usage)
+  - [Generator](#generator)
+- [Badge](#badge)
+- [Example Readmes](#example-readmes)
+- [Related Efforts](#related-efforts)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Development server
+## Background
+POL is a website that I personally developed to aggregate various functions as well as focus on various collections in the form of memos.
+It depends on Angular 11.
+> Notes: This is just a small thing to do, very immature, welcome your criticism and correction
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+The goals for this repository are:
+1. Learn the new trendy front-end technology
+2. Share Technology
+3. Technology changes lives
 
-## Code scaffolding
+## Install
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+This project uses [node](http://nodejs.org) and [npm](https://npmjs.com). Go check them out if you don't have them locally installed.
 
-## Build
+```sh
+$ npm install filepond ngx-filepond --save
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```
 
-## Running unit tests
+## Usage
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+This is only a documentation package. You can print out [spec.md](spec.md) to your console:
 
-## Running end-to-end tests
+```sh
+$ standard-readme-spec
+# Prints out the standard-readme spec
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Generator
 
-## Further help
+To use the generator, look at [generator-standard-readme](https://github.com/RichardLitt/generator-standard-readme). There is a global executable to run the generator in that package, aliased as `standard-readme`.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Badge
+
+If your README is compliant with Standard-Readme and you're on GitHub, it would be great if you could add the badge. This allows people to link back to this Spec, and helps adoption of the README. The badge is **not required**.
+
+[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+
+To add in Markdown format, use this code:
+
+```
+[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+```
+
+## Example Readmes
+
+To see how the specification has been applied, see the [example-readmes](example-readmes/).
+
+## Related Efforts
+
+- [Art of Readme](https://github.com/noffle/art-of-readme) - 💌 Learn the art of writing quality READMEs.
+- [open-source-template](https://github.com/davidbgk/open-source-template/) - A README template to encourage open-source contributions.
+
+
+## Contributing
+
+Feel free to dive in! [Open an issue](https://github.com/RichardLitt/standard-readme/issues/new) or submit PRs.
+
+Standard Readme follows the [Contributor Covenant](http://contributor-covenant.org/version/1/3/0/) Code of Conduct.
+
+### Contributors
+
+This project exists thanks to all the people who contribute.
+
+
+## License
+
+[MIT](LICENSE)
